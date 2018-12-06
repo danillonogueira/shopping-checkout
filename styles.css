@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eee;
+  font-family: Arial;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 150px;
+}
+
+
+.containers-box {
+  display: flex;
+  border-radius: 5px;
+  background: #fff;
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+.container1 {
+  width: 50%;
+  border-right: solid 1px;
+}
+
+
+.container2 {
+  width: 50%;
+}
+
+.line-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 40px 50px 40px;
+}
+
+.container1 i {
+  margin: 0 4px;
+}
+
+.container1 span {
+  margin-right: 7px;
+}
+
+.container2A {
+  padding: 110px 70px 60px 70px;
+}
+
+.container2B {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px 0;
+  border-color: #f2f2f2;
+  padding: 40px 50px;
+}
+
+.container1,
+.container2B {
+  border-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 1em;
+  font-weight: normal;
+  color: #d9d9d9;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 28px;
+  font-weight: 550;
+  color: #4d4d4d;
+}
+
+.stars {
+  margin: 20px 0;
+  font-size: 12px;
+  color: #4d4d4d;
+}
+
+.icon-gray {
+  color: #d9d9d9;
+  cursor: pointer;
+}
+
+.stars span {
+  text-align: center;
+  margin: 0 5px;
+}
+
+p { 
+  text-align: justify;
+  margin: 40px 0;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #4d4d4d;
+}
+
+.line-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trucks {
+  display: flex;
+  padding: 5px 0 0 0;
+}
+
+.truck-stock,
+.truck-delivery,
+.line-top {
+  color: #d9d9d9;
+}
+
+.trucks span {
+  margin: 0 3px;
+  font-size: 12px;
+}
+
+.truck-stock {
+  margin: 0 30px 0 0;
+}
+
+.prices-box {
+  font-size: 25px;
+}
+
+.price1,
+.price2 {
+  margin: 0 7px 0 0;
+}
+
+.price1 {
+  color: #1a1a1a;
+}
+
+.price2 {
+  text-decoration: line-through;
+  color: #d9d9d9;
+}
+
+.sizes-box {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="radio"] {
+  /* Pega o radio e manda la pra pqp */
+  position: absolute;
+  left: -99999px;
+}
+
+.radio {
+  align-items: center;
+  justify-content: center;
+  padding: 12px 11px 10px 5px;
+  border-right: solid 1px;
+  font-size: 11px;
+}
+
+.radio:hover {
+  cursor: pointer;
+}
+
+input[type="radio"]:checked +.radio {
+  color: #4d4d4d;
+  border-color: #e6e6e6;
+}
+
+.sizes-radio {
+  border: solid 1px;
+  border-radius: 2px;
+  padding: 8px 1px 8px 6px;
+  color: #e6e6e6;
+}
+
+.radio-30 {
+  border-right: none;
+}
+
+.sizes-titles {
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+
+.sizes-titles span {
+  margin-right: 5px;
+}
+
+.line-top div {
+  cursor: pointer;
+}
+
+.colors-box,
+.quantity-box {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+
+.input-select-fieldbox {
+  padding-top: 19px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.blue-circle {
+  border-style: unset;
+  border-radius: 50%;
+  border-color: #003566;
+  background: #003566;
+  width: 15px;
+  height: 15px;
+  position: relative;
+}
+
+select {
+  padding: 8px;
+  border-radius: 2px;
+  border-color: #e6e6e6;
+  margin: 9px 0;
+  font-size: 12px;
+  font-family: FontAwesome, Arial;
+}
+
+.icon-select {
+  font-size: 20px;
+}
+
+input {
+  width: 60px;
+  padding: 9px;
+  border: solid 1px;
+  border-radius: 2px;
+  border-color: #e6e6e6;
+  margin: 9px 0;
+  text-align: center;
+}
+
+
+button {
+  border: 0;
+  margin: 15px 30px; 
+  background: #fff;
+  font-weight: 400;
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: solid 1px;
+  font-weight: bold;
+  font-size: 14px;
+  width: 220px;
+  border-color: #f2f2f2;
+}
+
+.button1 {
+  background: #fff;
+  color: #4d4d4d;
+}
+
+.button2 {
+  background: #1e90ff;
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.buttons-box {
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 65px 0 0 0;
+}
+
+.img1 {
+  width: 270px;
+  height: 300px;
+  margin: 10px auto;
+}
+
+.img-bottom {
+  margin: 80px auto;
+  display: flex;
+  flex-direction: space-between;
+}
+
+.img2,
+.img3,
+.img4 {
+  width: 70px;
+  height: 70px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.reviews {   /* BRUTEFORCING POSITION */
+  top: 1px;
+  position: relative;
+  color: #d9d9d9;
+}
+
+
+/* TODO: estilização das opções do select */
+
